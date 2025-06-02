@@ -3950,3 +3950,24 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+/* New incorporations */
+
+#one > .inner > .image.main {
+	width: 550px;
+}
+
+#two {
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#two > img {
+	width: 500px;
+}
+
+#two > .inner {
+	margin-left: 200px;
+}
