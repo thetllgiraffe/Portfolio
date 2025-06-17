@@ -3163,12 +3163,13 @@ input, select, textarea {
 		list-style: none;
 		margin: 3rem 0;
 		padding-left: 0;
+		flex-direction: column;
 	}
-
+/*
 		ul.feature-icons:first-child {
 			margin-top: 0;
-		}
-
+		}	
+*/
 		ul.feature-icons li {
 			margin: 2.5rem 0 0 0;
 			padding: 0.5rem 0 0 4.5rem;
@@ -3192,11 +3193,11 @@ input, select, textarea {
 				top: 0;
 				width: 3.25rem;
 			}
-
+/*
 			ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 				margin-top: 0;
 			}
-
+*/
 		@media screen and (max-width: 736px) {
 
 			ul.feature-icons {
@@ -3880,3 +3881,27 @@ input, select, textarea {
 		}
 
 	}
+
+/*New styles introduced*/
+
+.boldWords {
+	font-weight: 600;
+	display: inline;
+}
+
+.feauture-icons {
+	padding: 0;
+	margin: 0;
+}
+
+.doubleFont {
+	font-size: 1.3rem;
+}
+
+.rounded {
+	border-radius: 1rem;
+	border-color: blue;
+	background-color: blue;
+	padding: 2rem;
+	color: white;
+}
