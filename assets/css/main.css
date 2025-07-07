@@ -3174,7 +3174,7 @@ input, select, textarea {
 			margin: 2.5rem 0 0 0;
 			padding: 0.5rem 0 0 4.5rem;
 			position: relative;
-			width: 50%;
+			width: 100%;
 		}
 
 			ul.feature-icons li:before {
@@ -3900,8 +3900,8 @@ input, select, textarea {
 
 .rounded {
 	border-radius: 1rem;
-	border-color: blue;
-	background-color: blue;
+	border-color: rgb(61, 61, 70);
+	background-color: rgb(61, 61, 70);
 	padding: 2rem;
 	color: white;
 }
